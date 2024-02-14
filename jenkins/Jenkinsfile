@@ -16,11 +16,6 @@ pipeline {
                 }
             }
         }
-        stage('complete') {
-            steps {
-                sh "echo complete"
-            }
-        }
         stage('complete-multi1') {
             steps {
                 sh "echo completed multi1"
